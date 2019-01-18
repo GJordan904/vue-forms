@@ -1,0 +1,21 @@
+import { BooleanSchema, NumberSchema, ObjectSchema, StringSchema } from 'joi';
+import { ArrayFactory, GroupFactory, SchemaFactory, Schemas, StringFactory } from '../../interfaces';
+export declare const BoolSchema: BooleanSchema;
+export declare const NumSchema: NumberSchema;
+export declare const StrSchema: StringSchema;
+export declare const GroupSchema: GroupFactory;
+export declare const ArrSchema: ArrayFactory;
+export declare const RegexSchema: StringFactory;
+export declare const NameSchema: StringSchema;
+export declare const EmailSchema: StringSchema;
+export declare const PhoneSchema: StringSchema;
+export declare const TaxIdSchema: StringSchema;
+export declare const StreetSchema: StringSchema;
+export declare const CitySchema: StringSchema;
+export declare const StateSchema: StringSchema;
+export declare const ZipSchema: StringSchema;
+export declare const AddressSchema: ObjectSchema;
+export declare const schemas: Schemas;
+export declare const schemaFactories: {
+    [key: string]: SchemaFactory;
+};
