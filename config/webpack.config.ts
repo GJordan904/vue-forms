@@ -40,7 +40,7 @@ const conf: Configuration = {
   output: {
     path: resolve('build'),
     filename: '[name].js',
-    library: ['PpiForms', '[name]'],
+    library: ['vueForms', '[name]'],
     libraryTarget: 'umd',
   },
 
